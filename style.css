@@ -1,0 +1,379 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    overflow-x: hidden; 
+}
+header{
+    background-color: #eeeeee;
+    height: 130px;
+    width: 100%;
+    /* position: fixed; */
+}
+.PSO{
+    position: fixed;
+    height: 130px;
+    width: 100%;
+    z-index: 2;
+    background-color: #eeeeee;
+}
+.textHeader{
+    height: 220px;
+    width: 50%;
+    margin-left: 52%;
+    margin-top: -180px;
+    /* background-color: coral; */
+    display: flex;
+    /* position:relative; */
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    max-width: 800px;
+    max-height: 230px;
+}
+
+.imgHeader{
+    background-image: url(./Птичка.png);
+    /* background-color: beige;  */
+    background-size: 200%;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+.xzvHeader{
+    width:400px;
+    height: 150px;
+    position: absolute;
+    left: 300px;
+    top: 15px;
+    font-size: 30px;
+    font-family: 'Rubik Puddles', cursive;
+}
+.block1{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    padding-left: 7%;
+    padding-top: 5%;
+    background-image: url(./IMG_20221221_212723_892-01.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.blockInfo{
+    height: 400px;
+    width: 470px;
+    background-color: grey;
+    position: absolute;
+    opacity: 80%;
+    /* left: 6%;
+    top: 27%; */
+    font-size: 32px;
+ }
+.block2{
+    height: 550px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.block3{
+    height: 400px;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+}
+.block4{
+    height: 500px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.block5{
+    height: 380px;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+}
+a{
+    color: inherit;
+    font-family: 'Pacifico', cursive;
+}
+h1 {
+    opacity: 100%;
+    font-size: 30px;
+}
+p{
+    opacity: 150%;
+}
+.VoprosDay{
+    margin-left:50%;
+    height: 400px;
+    width: 700px;
+    background-color: whitesmoke;
+    /* position: absolute;
+    left: 54%;
+    top: 27%; */
+    /* font-size: 30px; */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+VoprosDayText{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(20, 145, 255);
+    
+    /* position: absolute;
+        left: 54%;
+        top: 27%; */
+}
+.OnasText{
+    /* background-color: aqua; */
+    color: white;
+    height: 320px;
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+h3{
+    font-size: 20px;
+}
+.blockdvig{
+    height: 25px;
+}
+.SetkaVoprosi{
+    padding-top: 500px;
+    /* margin-top: 50px; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 100px;
+    padding: 10px;
+    grid-gap: 10px;
+}
+.blocki{
+    border: 1px solid;
+    border-radius: 15px;
+    padding-top: 20px;
+    /* padding-left: 10px; */
+    text-align: center;
+
+}
+.block_1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: start;
+}
+.block_4{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.block_5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.block_6{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.block_7{
+    grid-column-start: 5;
+    /* grid-column-end: 5; */
+    grid-row: 1;
+}
+.block_8{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row: 1;
+}
+.block_8:hover, .block_2:hover, .block_3:hover, .block_5:hover, .block_4:hover, .block_7:hover, .block_6:hover, .block_9:hover, .block_10:hover, .block_11:hover, .block_12:hover {
+    transform: scale(1.6);
+    background-color: whitesmoke;
+    /* font-size: 30px; */
+}
+.block_9{
+    grid-column-start: 1;
+    /* grid-column-end: 5; */
+    grid-row-start: 3;
+    
+}
+.block_10{
+    grid-column-start: 2;
+    /* grid-column-end: 5; */
+    grid-row-start: 3;
+}
+.block_11{
+    grid-column-start: 1;
+    /* grid-column-end: 5; */
+    grid-row-start: 4;
+}
+.block_12{
+    grid-column-start: 2;
+    /* grid-column-end: 5; */
+    grid-row-start: 4;
+}
+.block_13{
+    grid-column-start: 5;   
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-image: url(http://risovach.ru/upload/2020/10/mem/zadumchivost_252599788_orig_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.b1{
+    position: relative;
+    /* background-color: blue; */
+    height: 10px;
+    width: 10px;
+    top: -80px;
+}
+.popAvtorstext{
+    /* background-color: rgb(107, 174, 233); */
+    height: 150px;
+    width: 330px;
+    padding: 23px;
+    font-size: 20px;
+    color: aliceblue;
+    position: relative;
+    top: 80px;
+
+}
+.popAvtorSetka{
+    /* background-color: rgb(107, 174, 233); */
+    height: 450px;
+    width: 1100px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    /* padding: ; */
+}
+.avtor{
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    height: 110px;
+
+}
+.imgAvtorSetka{
+    background-color: aliceblue;
+    /* background-image: url(https://peopletalk.ru/wp-content/uploads/2022/08/cs2x0lnjj8yoxc5aaxqatdkheh4vbj8oggv_xafwxtnioab1knzpoxudykhum886ft9ywsvn.jpg); */
+    height: 100%;
+    width: 22%;
+    border-radius: 1200px;
+}
+.imgAvtorText{
+    /* background-color: blue  ;    */
+    width: 70%;
+    height: 100px;
+    position: relative;
+    left: 130px;
+    top: -100px;
+    color: whitesmoke;
+}
+.img_1{
+    background-image: url(https://peopletalk.ru/wp-content/uploads/2022/08/cs2x0lnjj8yoxc5aaxqatdkheh4vbj8oggv_xafwxtnioab1knzpoxudykhum886ft9ywsvn.jpg);
+    background-size: 100% 100%;
+}
+.img_2{
+    background-image: url(https://infoselection.ru/media/k2/items/cache/576492c356d8e0278dfa7b752bad5bc8_XL.jpg);
+    background-size: 100% 100%;
+}
+.img_3{
+    background-image: url(https://logodix.com/logo/2086549.png);
+    background-size: 100% 100%;
+}
+.img_4{
+    background-image: url(https://sun1-94.userapi.com/impg/mWQXLsaGnnj56Le_gXSuccc06XW_9rcwGej02g/MwEAE07PTac.jpg?size=640x640&quality=95&sign=cfec67cc813be29460adc1fec5273a12&type=album);
+    background-size: 100% 100%;
+}
+.videoText{
+    color:black;
+    /* background-color: rgb(255, 255, 255); */
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    font-size: 30px;
+    top: 150px;
+    left: 50px;
+    
+}
+.video1{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    left: 430px;
+    top: 130px;
+}
+.OnasSetka{
+    /* background-color: aqua; */
+    height: 300px;
+    width: 1100px;
+    position: relative;
+    left: 350px;
+    top: -350px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.OnasSetkaBlock{
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.imgOt1{
+color: whitesmoke;
+}
+@media screen and (min-width: 300px) and (max-width: 992px){
+    body{
+        max-width: 92px;
+    }
+    .PSO{
+        height: 500px;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 922px;
+        /* position: none; */
+        margin-left: 0;
+        /* position: relative; */
+        /* top: ; */
+    }
+    .imgHeader{
+        /* position: relative; */
+        /* left: 50px; */
+    }
+    .xzvHeader{
+        /* position: relative; */
+        margin: 0;
+        left: 50%;
+        font-size: 20px;
+    }
+    .textHeader{
+        display: block;
+        margin: 0;
+        /* position: relative; */
+        left: -200px;
+        bottom: 40px;
+        /* justify-content:flex-start; */
+    }
+    .block1{
+        height: 1200px;
+        background-color: black;
+        background-image: none;
+    }
+    .blockInfo{
+        top: 550px;
+        left: -20px;
+        width: 390;
+        font-size: 18px;
+    }
+    
+}
